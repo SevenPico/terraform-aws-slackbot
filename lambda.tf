@@ -124,8 +124,8 @@ resource "aws_iam_role_policy_attachment" "lambda" {
 }
 
 module "lambda_policy" {
-  source  = "cloudposse/iam-policy/aws"
-  version = "0.4.0"
+  source  = "SevenPicoForks/iam-policy/aws"
+  version = "2.0.0"
   context = module.context.legacy
 
   description                   = "Slackbot Lambda Access Policy"
