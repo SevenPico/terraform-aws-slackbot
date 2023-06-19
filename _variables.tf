@@ -40,7 +40,7 @@ variable "slack_channels" {
 }
 
 variable "slack_token_secret_arn" {
-  type    = string
+  type = string
 }
 
 variable "slack_token_secret_kms_key_arn" {
